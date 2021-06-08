@@ -18,7 +18,7 @@
 
   // Shuffle card images: How many different images are available to shuffle
   // from?
-  var imagesAvailable = 30;
+  var imagesAvailable = 15;
 
   /************ End hard coded settings ******************/
 
