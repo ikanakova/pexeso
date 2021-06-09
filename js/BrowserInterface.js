@@ -113,7 +113,7 @@
     var index = 0;
 
     var cardMaxWidth = document.getElementById('memory--app-container').offsetWidth / columns;
-    var cardHeightForMaxWidth = cardMaxWidth * (3 / 4);
+    var cardHeightForMaxWidth = cardMaxWidth * (3/ 4);
 
     var cardMaxHeight = document.getElementById('memory--app-container').offsetHeight / rows;
     var cardWidthForMaxHeight = cardMaxHeight * (4 / 3);
