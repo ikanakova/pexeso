@@ -154,6 +154,10 @@
     buildLayout($.cards, $.settings.rows, $.settings.columns);
   }, true);
 
+  function pad(num, size){
+     return ('000000000' + num).substr(-size);
+  }
+
   // Build single card
   var buildCardNode = function (index, card, width, height) {
     var flipContainer = document.createElement("li");
@@ -173,7 +177,7 @@
     front.classList.add("front");
     front.setAttribute("href", "#");
     back.classList.add("back");
-    back.classList.add("card-" + card.value);
+    back.style.backgroundImage = "url(images/cards/" + pad(card.value,2) + ".jpg)";
     if (card.isMatchingCard) {
       back.classList.add("matching");
     }
