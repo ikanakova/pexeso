@@ -18,7 +18,7 @@
 
   // Shuffle card images: How many different images are available to shuffle
   // from?
-  var imagesAvailable = 33;
+  var imagesAvailable = 32;
 
   /************ End hard coded settings ******************/
 
@@ -113,10 +113,10 @@
     var index = 0;
 
     var cardMaxWidth = document.getElementById('memory--app-container').offsetWidth / columns;
-    var cardHeightForMaxWidth = cardMaxWidth * (3/ 4);
+    var cardHeightForMaxWidth = cardMaxWidth * (1 / 1);
 
     var cardMaxHeight = document.getElementById('memory--app-container').offsetHeight / rows;
-    var cardWidthForMaxHeight = cardMaxHeight * (4 / 3);
+    var cardWidthForMaxHeight = cardMaxHeight * (1 / 1);
 
     // Clean up. Remove all child nodes and card clicking event listeners.
     while (memoryCards.firstChild) {
