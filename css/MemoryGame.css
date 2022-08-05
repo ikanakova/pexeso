@@ -216,8 +216,8 @@ body {
   -o-transform: rotateY(0deg);
   transform: rotateY(0deg);
   background-color: #e12d00;
-  border-radius: 5%;
-  background-image: url(../images/card.svg);
+  border-radius: 0%;
+  background-image: url(../images/card.jpg);
   background-position:50% 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -232,14 +232,14 @@ body {
   -o-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
   background-color: #fff;
-  border-radius: 5%;
+  border-radius: 0%;
   background-position:50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /** not needed any longer:
-    images are programmatically added as background images
+    images are programmatically added as background images (in the file BrowserInterface.js)
 
 .back.card-01 {
   background-image: url(../images/cards/01.jpg);
@@ -247,18 +247,3 @@ body {
 
 **/
 
-/** Matching Cards **/
-/**
- * If you wish to have custom matching images, you can do so
- * by leveraging the 'matching' class which is added to one
- * of the matching cards. See the example below.
- *
- * .back.card-1 {
- *   background-image: url(../images/cards/apple_1.jpg);
- * }
- *
- * .back.matching.card-1 {
- *   background-image: url(../images/cards/apple_2.jpg);
- * }
- *
- */
